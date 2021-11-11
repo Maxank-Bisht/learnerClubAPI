@@ -1,0 +1,28 @@
+{
+	"name": "learner-club",
+	"version": "1.0.0",
+	"description": "This is leaner club backend api",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "set NODE_ENV=production && node server",
+		"dev": "nodemon server"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Maxank-Bisht/learnerClubAPI.git"
+	},
+	"author": "Mayank Bisht",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/Maxank-Bisht/learnerClubAPI/issues"
+	},
+	"homepage": "https://github.com/Maxank-Bisht/learnerClubAPI#readme",
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.15"
+	}
+}
