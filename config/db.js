@@ -5,7 +5,7 @@ const connectDB = async () => {
 		useNewUrlParser: true,
 	});
 
-	console.log(`Connected to DB: ${conn.connection.host}`);
+	console.log(`Connected to DB: ${conn.connection.host}`.yellow.bold.underline);
 };
 
 module.exports = connectDB;
